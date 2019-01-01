@@ -1,0 +1,66 @@
+.orgChart table {
+    width: 100%;
+}
+
+.orgChart tr.lines td.line {
+    width: 50%;
+    height: 58px;
+}
+
+.orgChart tr.lines td.top {
+    border-top: 2px solid #a0a2a0;
+}
+
+.orgChart tr.lines td.left {
+    float: none !important;
+    border-right: 2px solid #a0a2a0;
+}
+
+.orgChart tr.lines td.right {
+    float:  none !important;
+    border-left: 0px solid #a0a2a0;
+}
+
+.orgChart tr.lines td.half {
+    width: 50%;
+}
+
+.orgChart td {
+    text-align: center;
+    vertical-align: top;
+    padding: 0px 2px;
+}
+
+.orgChart div.node {
+    background: #fff;
+    cursor: default;
+    display: inline-block;
+    padding: 16px 22px 54px;
+    width: 262px;
+    position: relative;
+    border: solid;
+    border-width: 1px;
+    box-shadow: 0px 1px 4px #505050;
+    -webkit-box-shadow: 0px 1px 4px #505050;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.orgChart h2 {
+    font-size: 16px;
+    font-family: 'open_sanssemibold';
+    text-align: left;
+    color: #424242;
+}
+
+.orgEmpDragList {
+    min-height: 36px;
+}
+
+.orgChart div.node .orgEmpDragList {
+    text-align: left;
+    max-height: 360px;
+    overflow: auto;
+}
+
+

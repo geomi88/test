@@ -1,0 +1,120 @@
+
+/* tel */
+
+
+.jqbtk-container .btn {
+	font-size: 2.5em;
+	width: 2.2em;
+	height: 2em;
+	text-align: center;
+	margin: 2px;
+	border:1px solid #851e324d;	
+
+}
+
+
+
+.jqbtk-container .jqbtk-space {
+	width: 12em;
+}
+.jqbtk-container .jqbtk-shift {
+	width: 4.4em;
+}
+.jqbtk-container .jqbtk-enter {
+	width: 4em;
+}
+ .popover {
+	max-width: 800px;
+	display: block!important;
+}
+.keyboard-container{
+	overflow: hidden;
+	position:relative;
+}
+.keyboard-container .popover{
+	left:0px !important;
+	top:0px !important;
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+
+.popover-content  {
+/*    width: 315px;*/
+    max-width: 100%;
+    padding:35px;
+    margin:auto!important;
+    text-align: center;
+}
+
+.textKeys {
+    max-width: 679px;
+    left: 0 !important;
+    right: 0;
+    margin: auto;
+    font-size: 8px;
+    text-align: center;
+}
+/*.textKeys .popover-content{
+    max-width:90%!important;
+}*/
+
+.btn-default{
+	background-color: transparent!important;
+}
+.redColor{
+	background-color: #851e32!important;
+	color: #fff!important;
+	border: 1px solid #b60000!important;
+}
+/*.textKeys .arrow{
+    left: 10%!important;
+}*/
+.popover.bottom{
+    left: 25%!important;
+}
+/*.popover.bottom{
+    left: 0%!important;
+}*/
+
+@media (max-width: 1150px){
+    .textKeys .arrow{
+        left: 35%!important;
+    }
+}
+@media (max-width: 890px){
+    .textKeys .arrow{
+        left: 15%!important;
+    }
+}
+@media (max-width: 450px) {
+
+	.textKeys .jqbtk-container .btn {
+
+	    font-size: 16px;
+	    width: 40px;
+	    height: 40px;
+	    text-align: center;
+	    margin: 2px;
+	    border: 1px solid #851e324d;
+
+	}
+	.textKeys .popover-content {
+		padding: 28px 14px;
+	}
+}
+
+
+@media (max-width: 620px) and (min-width: 451px) {
+
+	.textKeys .jqbtk-container .btn {
+
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+ }
+	 .textKeys .popover-content {
+		padding: 30px 20px;
+	}
+}
